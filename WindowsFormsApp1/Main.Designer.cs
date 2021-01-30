@@ -185,10 +185,11 @@
             // 
             this.Mname.AutoSize = true;
             this.Mname.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Mname.Location = new System.Drawing.Point(837, 67);
-            this.Mname.MinimumSize = new System.Drawing.Size(200, 40);
+            this.Mname.Location = new System.Drawing.Point(1116, 82);
+            this.Mname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Mname.MinimumSize = new System.Drawing.Size(267, 49);
             this.Mname.Name = "Mname";
-            this.Mname.Size = new System.Drawing.Size(200, 40);
+            this.Mname.Size = new System.Drawing.Size(267, 49);
             this.Mname.TabIndex = 3;
             this.Mname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -214,10 +215,12 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox1.Location = new System.Drawing.Point(837, 113);
-            this.groupBox1.MinimumSize = new System.Drawing.Size(200, 200);
+            this.groupBox1.Location = new System.Drawing.Point(1116, 139);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.MinimumSize = new System.Drawing.Size(267, 246);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(213, 371);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(284, 457);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "נתוני לקוח:";
@@ -226,11 +229,12 @@
             // 
             this.Sub.Cursor = System.Windows.Forms.Cursors.Default;
             this.Sub.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Sub.Location = new System.Drawing.Point(12, 335);
-            this.Sub.MinimumSize = new System.Drawing.Size(100, 0);
+            this.Sub.Location = new System.Drawing.Point(16, 412);
+            this.Sub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Sub.MinimumSize = new System.Drawing.Size(133, 0);
             this.Sub.Name = "Sub";
             this.Sub.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Sub.Size = new System.Drawing.Size(115, 20);
+            this.Sub.Size = new System.Drawing.Size(153, 25);
             this.Sub.TabIndex = 19;
             this.Sub.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Sub.UseMnemonic = false;
@@ -239,11 +243,12 @@
             // 
             this.Street.Cursor = System.Windows.Forms.Cursors.Default;
             this.Street.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Street.Location = new System.Drawing.Point(12, 160);
-            this.Street.MinimumSize = new System.Drawing.Size(100, 0);
+            this.Street.Location = new System.Drawing.Point(16, 197);
+            this.Street.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Street.MinimumSize = new System.Drawing.Size(133, 0);
             this.Street.Name = "Street";
             this.Street.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Street.Size = new System.Drawing.Size(115, 20);
+            this.Street.Size = new System.Drawing.Size(153, 25);
             this.Street.TabIndex = 18;
             this.Street.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Street.UseMnemonic = false;
@@ -252,11 +257,12 @@
             // 
             this.Lname.Cursor = System.Windows.Forms.Cursors.Default;
             this.Lname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Lname.Location = new System.Drawing.Point(12, 125);
-            this.Lname.MinimumSize = new System.Drawing.Size(100, 0);
+            this.Lname.Location = new System.Drawing.Point(16, 154);
+            this.Lname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lname.MinimumSize = new System.Drawing.Size(133, 0);
             this.Lname.Name = "Lname";
             this.Lname.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Lname.Size = new System.Drawing.Size(115, 20);
+            this.Lname.Size = new System.Drawing.Size(153, 25);
             this.Lname.TabIndex = 17;
             this.Lname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Lname.UseMnemonic = false;
@@ -265,11 +271,12 @@
             // 
             this.Discount.Cursor = System.Windows.Forms.Cursors.Default;
             this.Discount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Discount.Location = new System.Drawing.Point(12, 300);
-            this.Discount.MinimumSize = new System.Drawing.Size(100, 0);
+            this.Discount.Location = new System.Drawing.Point(16, 369);
+            this.Discount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Discount.MinimumSize = new System.Drawing.Size(133, 0);
             this.Discount.Name = "Discount";
             this.Discount.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Discount.Size = new System.Drawing.Size(115, 20);
+            this.Discount.Size = new System.Drawing.Size(153, 25);
             this.Discount.TabIndex = 15;
             this.Discount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Discount.UseMnemonic = false;
@@ -278,11 +285,12 @@
             // 
             this.City.Cursor = System.Windows.Forms.Cursors.Default;
             this.City.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.City.Location = new System.Drawing.Point(12, 195);
-            this.City.MinimumSize = new System.Drawing.Size(100, 0);
+            this.City.Location = new System.Drawing.Point(16, 240);
+            this.City.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.City.MinimumSize = new System.Drawing.Size(133, 0);
             this.City.Name = "City";
             this.City.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.City.Size = new System.Drawing.Size(115, 20);
+            this.City.Size = new System.Drawing.Size(153, 25);
             this.City.TabIndex = 14;
             this.City.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.City.UseMnemonic = false;
@@ -291,11 +299,12 @@
             // 
             this.Phone.Cursor = System.Windows.Forms.Cursors.Default;
             this.Phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Phone.Location = new System.Drawing.Point(12, 230);
-            this.Phone.MinimumSize = new System.Drawing.Size(100, 0);
+            this.Phone.Location = new System.Drawing.Point(16, 283);
+            this.Phone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Phone.MinimumSize = new System.Drawing.Size(133, 0);
             this.Phone.Name = "Phone";
             this.Phone.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Phone.Size = new System.Drawing.Size(115, 20);
+            this.Phone.Size = new System.Drawing.Size(153, 25);
             this.Phone.TabIndex = 13;
             this.Phone.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Phone.UseMnemonic = false;
@@ -304,11 +313,12 @@
             // 
             this.Note.Cursor = System.Windows.Forms.Cursors.Default;
             this.Note.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Note.Location = new System.Drawing.Point(12, 265);
-            this.Note.MinimumSize = new System.Drawing.Size(100, 0);
+            this.Note.Location = new System.Drawing.Point(16, 326);
+            this.Note.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Note.MinimumSize = new System.Drawing.Size(133, 0);
             this.Note.Name = "Note";
             this.Note.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Note.Size = new System.Drawing.Size(115, 20);
+            this.Note.Size = new System.Drawing.Size(153, 25);
             this.Note.TabIndex = 12;
             this.Note.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Note.UseMnemonic = false;
@@ -317,11 +327,12 @@
             // 
             this.Fname.Cursor = System.Windows.Forms.Cursors.Default;
             this.Fname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Fname.Location = new System.Drawing.Point(12, 90);
-            this.Fname.MinimumSize = new System.Drawing.Size(100, 0);
+            this.Fname.Location = new System.Drawing.Point(16, 111);
+            this.Fname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Fname.MinimumSize = new System.Drawing.Size(133, 0);
             this.Fname.Name = "Fname";
             this.Fname.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Fname.Size = new System.Drawing.Size(115, 20);
+            this.Fname.Size = new System.Drawing.Size(153, 25);
             this.Fname.TabIndex = 11;
             this.Fname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Fname.UseMnemonic = false;
@@ -331,11 +342,12 @@
             this.Id.Cursor = System.Windows.Forms.Cursors.Default;
             this.Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Id.ForeColor = System.Drawing.Color.Red;
-            this.Id.Location = new System.Drawing.Point(12, 55);
-            this.Id.MinimumSize = new System.Drawing.Size(100, 0);
+            this.Id.Location = new System.Drawing.Point(16, 68);
+            this.Id.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Id.MinimumSize = new System.Drawing.Size(133, 0);
             this.Id.Name = "Id";
             this.Id.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Id.Size = new System.Drawing.Size(115, 20);
+            this.Id.Size = new System.Drawing.Size(153, 25);
             this.Id.TabIndex = 10;
             this.Id.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Id.UseMnemonic = false;
@@ -344,10 +356,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(156, 335);
+            this.label11.Location = new System.Drawing.Point(208, 412);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label11.Size = new System.Drawing.Size(39, 20);
+            this.label11.Size = new System.Drawing.Size(50, 25);
             this.label11.TabIndex = 9;
             this.label11.Text = "מנוי:";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -357,10 +370,11 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(149, 160);
+            this.label10.Location = new System.Drawing.Point(199, 197);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label10.Size = new System.Drawing.Size(46, 20);
+            this.label10.Size = new System.Drawing.Size(56, 25);
             this.label10.TabIndex = 8;
             this.label10.Text = "רחוב:";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -370,10 +384,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(134, 125);
+            this.label9.Location = new System.Drawing.Point(179, 154);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label9.Size = new System.Drawing.Size(61, 20);
+            this.label9.Size = new System.Drawing.Size(73, 25);
             this.label9.TabIndex = 7;
             this.label9.Text = "משפחה:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -383,10 +398,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(148, 300);
+            this.label7.Location = new System.Drawing.Point(197, 369);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label7.Size = new System.Drawing.Size(47, 20);
+            this.label7.Size = new System.Drawing.Size(57, 25);
             this.label7.TabIndex = 5;
             this.label7.Text = "הנחה:";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -396,10 +412,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(158, 195);
+            this.label6.Location = new System.Drawing.Point(211, 240);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label6.Size = new System.Drawing.Size(37, 20);
+            this.label6.Size = new System.Drawing.Size(45, 25);
             this.label6.TabIndex = 4;
             this.label6.Text = "עיר:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -409,10 +426,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(143, 230);
+            this.label5.Location = new System.Drawing.Point(191, 283);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label5.Size = new System.Drawing.Size(52, 20);
+            this.label5.Size = new System.Drawing.Size(62, 25);
             this.label5.TabIndex = 3;
             this.label5.Text = "טלפון:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -422,10 +440,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(134, 265);
+            this.label4.Location = new System.Drawing.Point(179, 326);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label4.Size = new System.Drawing.Size(61, 20);
+            this.label4.Size = new System.Drawing.Size(72, 25);
             this.label4.TabIndex = 2;
             this.label4.Text = "הערה-נ:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -435,10 +454,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(162, 90);
+            this.label3.Location = new System.Drawing.Point(216, 111);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label3.Size = new System.Drawing.Size(33, 20);
+            this.label3.Size = new System.Drawing.Size(41, 25);
             this.label3.TabIndex = 1;
             this.label3.Text = "שם:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -448,10 +468,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(146, 55);
+            this.label2.Location = new System.Drawing.Point(195, 68);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(49, 20);
+            this.label2.Size = new System.Drawing.Size(58, 25);
             this.label2.TabIndex = 0;
             this.label2.Text = "מספר:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -464,11 +485,12 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.tabControl1.ItemSize = new System.Drawing.Size(100, 80);
-            this.tabControl1.Location = new System.Drawing.Point(12, 71);
-            this.tabControl1.MinimumSize = new System.Drawing.Size(200, 200);
+            this.tabControl1.Location = new System.Drawing.Point(16, 87);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.MinimumSize = new System.Drawing.Size(267, 246);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1075, 586);
+            this.tabControl1.Size = new System.Drawing.Size(1433, 721);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 6;
             // 
@@ -503,10 +525,11 @@
             this.tabPage1.Controls.Add(this.label13);
             this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabPage1.Location = new System.Drawing.Point(4, 84);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.tabPage1.Size = new System.Drawing.Size(1067, 498);
+            this.tabPage1.Size = new System.Drawing.Size(1425, 633);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "לקוח";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -514,9 +537,10 @@
             // 
             // EditB
             // 
-            this.EditB.Location = new System.Drawing.Point(576, 18);
+            this.EditB.Location = new System.Drawing.Point(768, 22);
+            this.EditB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditB.Name = "EditB";
-            this.EditB.Size = new System.Drawing.Size(130, 40);
+            this.EditB.Size = new System.Drawing.Size(173, 49);
             this.EditB.TabIndex = 39;
             this.EditB.Text = "עריכת לקוח";
             this.EditB.UseVisualStyleBackColor = true;
@@ -524,20 +548,22 @@
             // 
             // DebtBox
             // 
-            this.DebtBox.Location = new System.Drawing.Point(393, 260);
+            this.DebtBox.Location = new System.Drawing.Point(524, 320);
+            this.DebtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DebtBox.Name = "DebtBox";
             this.DebtBox.ReadOnly = true;
-            this.DebtBox.Size = new System.Drawing.Size(219, 29);
+            this.DebtBox.Size = new System.Drawing.Size(291, 34);
             this.DebtBox.TabIndex = 38;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(642, 260);
+            this.label1.Location = new System.Drawing.Point(856, 320);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(54, 24);
+            this.label1.Size = new System.Drawing.Size(66, 29);
             this.label1.TabIndex = 37;
             this.label1.Text = "יתרה:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -545,9 +571,10 @@
             // 
             // Bar
             // 
-            this.Bar.Location = new System.Drawing.Point(136, 379);
+            this.Bar.Location = new System.Drawing.Point(181, 466);
+            this.Bar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Bar.Name = "Bar";
-            this.Bar.Size = new System.Drawing.Size(224, 23);
+            this.Bar.Size = new System.Drawing.Size(299, 28);
             this.Bar.TabIndex = 36;
             this.Bar.Visible = false;
             // 
@@ -558,9 +585,10 @@
             this.SaveB.Enabled = false;
             this.SaveB.Image = global::WindowsFormsApp1.Properties.Resources.icons8_save_80;
             this.SaveB.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.SaveB.Location = new System.Drawing.Point(136, 305);
+            this.SaveB.Location = new System.Drawing.Point(181, 375);
+            this.SaveB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SaveB.Name = "SaveB";
-            this.SaveB.Size = new System.Drawing.Size(224, 73);
+            this.SaveB.Size = new System.Drawing.Size(299, 90);
             this.SaveB.TabIndex = 35;
             this.SaveB.Text = "שמור";
             this.SaveB.UseMnemonic = false;
@@ -569,9 +597,10 @@
             // 
             // AddUser
             // 
-            this.AddUser.Location = new System.Drawing.Point(730, 18);
+            this.AddUser.Location = new System.Drawing.Point(973, 22);
+            this.AddUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AddUser.Name = "AddUser";
-            this.AddUser.Size = new System.Drawing.Size(130, 40);
+            this.AddUser.Size = new System.Drawing.Size(173, 49);
             this.AddUser.TabIndex = 34;
             this.AddUser.Text = "הוסף לקוח";
             this.AddUser.UseVisualStyleBackColor = true;
@@ -579,9 +608,10 @@
             // 
             // UserS
             // 
-            this.UserS.Location = new System.Drawing.Point(889, 18);
+            this.UserS.Location = new System.Drawing.Point(1185, 22);
+            this.UserS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.UserS.Name = "UserS";
-            this.UserS.Size = new System.Drawing.Size(130, 40);
+            this.UserS.Size = new System.Drawing.Size(173, 49);
             this.UserS.TabIndex = 33;
             this.UserS.Text = "חיפוש לקוח";
             this.UserS.UseVisualStyleBackColor = true;
@@ -589,20 +619,22 @@
             // 
             // SubBox
             // 
-            this.SubBox.Location = new System.Drawing.Point(20, 202);
+            this.SubBox.Location = new System.Drawing.Point(27, 249);
+            this.SubBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SubBox.Name = "SubBox";
             this.SubBox.ReadOnly = true;
-            this.SubBox.Size = new System.Drawing.Size(219, 29);
+            this.SubBox.Size = new System.Drawing.Size(291, 34);
             this.SubBox.TabIndex = 32;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(319, 205);
+            this.label12.Location = new System.Drawing.Point(425, 252);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label12.Size = new System.Drawing.Size(45, 24);
+            this.label12.Size = new System.Drawing.Size(55, 29);
             this.label12.TabIndex = 31;
             this.label12.Text = "מנוי:";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -610,20 +642,22 @@
             // 
             // EmailBox
             // 
-            this.EmailBox.Location = new System.Drawing.Point(393, 205);
+            this.EmailBox.Location = new System.Drawing.Point(524, 252);
+            this.EmailBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EmailBox.Name = "EmailBox";
             this.EmailBox.ReadOnly = true;
-            this.EmailBox.Size = new System.Drawing.Size(219, 29);
+            this.EmailBox.Size = new System.Drawing.Size(291, 34);
             this.EmailBox.TabIndex = 30;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label27.Location = new System.Drawing.Point(632, 205);
+            this.label27.Location = new System.Drawing.Point(843, 252);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
             this.label27.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label27.Size = new System.Drawing.Size(64, 24);
+            this.label27.Size = new System.Drawing.Size(80, 29);
             this.label27.TabIndex = 29;
             this.label27.Text = "אימייל:";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -631,28 +665,31 @@
             // 
             // NoteBox
             // 
-            this.NoteBox.Location = new System.Drawing.Point(20, 150);
+            this.NoteBox.Location = new System.Drawing.Point(27, 185);
+            this.NoteBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NoteBox.Name = "NoteBox";
             this.NoteBox.ReadOnly = true;
-            this.NoteBox.Size = new System.Drawing.Size(219, 29);
+            this.NoteBox.Size = new System.Drawing.Size(291, 34);
             this.NoteBox.TabIndex = 28;
             // 
             // DisBox
             // 
-            this.DisBox.Location = new System.Drawing.Point(20, 95);
+            this.DisBox.Location = new System.Drawing.Point(27, 117);
+            this.DisBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DisBox.Name = "DisBox";
             this.DisBox.ReadOnly = true;
-            this.DisBox.Size = new System.Drawing.Size(219, 29);
+            this.DisBox.Size = new System.Drawing.Size(291, 34);
             this.DisBox.TabIndex = 23;
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label20.Location = new System.Drawing.Point(253, 150);
+            this.label20.Location = new System.Drawing.Point(337, 185);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
             this.label20.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label20.Size = new System.Drawing.Size(111, 24);
+            this.label20.Size = new System.Drawing.Size(132, 29);
             this.label20.TabIndex = 21;
             this.label20.Text = "הערה נוספת:";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -662,10 +699,11 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label26.Location = new System.Drawing.Point(265, 95);
+            this.label26.Location = new System.Drawing.Point(353, 117);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
             this.label26.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label26.Size = new System.Drawing.Size(99, 24);
+            this.label26.Size = new System.Drawing.Size(121, 29);
             this.label26.TabIndex = 15;
             this.label26.Text = "הנחת לקוח:";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -673,61 +711,68 @@
             // 
             // PhoneBox
             // 
-            this.PhoneBox.Location = new System.Drawing.Point(393, 148);
+            this.PhoneBox.Location = new System.Drawing.Point(524, 182);
+            this.PhoneBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PhoneBox.Name = "PhoneBox";
             this.PhoneBox.ReadOnly = true;
-            this.PhoneBox.Size = new System.Drawing.Size(219, 29);
+            this.PhoneBox.Size = new System.Drawing.Size(291, 34);
             this.PhoneBox.TabIndex = 13;
             // 
             // CityBox
             // 
-            this.CityBox.Location = new System.Drawing.Point(393, 95);
+            this.CityBox.Location = new System.Drawing.Point(524, 117);
+            this.CityBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CityBox.Name = "CityBox";
             this.CityBox.ReadOnly = true;
-            this.CityBox.Size = new System.Drawing.Size(219, 29);
+            this.CityBox.Size = new System.Drawing.Size(291, 34);
             this.CityBox.TabIndex = 12;
             this.CityBox.DoubleClick += new System.EventHandler(this.CityBox_DoubleClick);
             // 
             // StreetBox
             // 
-            this.StreetBox.Location = new System.Drawing.Point(730, 260);
+            this.StreetBox.Location = new System.Drawing.Point(973, 320);
+            this.StreetBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.StreetBox.Name = "StreetBox";
             this.StreetBox.ReadOnly = true;
-            this.StreetBox.Size = new System.Drawing.Size(219, 29);
+            this.StreetBox.Size = new System.Drawing.Size(291, 34);
             this.StreetBox.TabIndex = 11;
             // 
             // LnameBox
             // 
-            this.LnameBox.Location = new System.Drawing.Point(730, 205);
+            this.LnameBox.Location = new System.Drawing.Point(973, 252);
+            this.LnameBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LnameBox.Name = "LnameBox";
             this.LnameBox.ReadOnly = true;
-            this.LnameBox.Size = new System.Drawing.Size(219, 29);
+            this.LnameBox.Size = new System.Drawing.Size(291, 34);
             this.LnameBox.TabIndex = 10;
             // 
             // FnameBox
             // 
-            this.FnameBox.Location = new System.Drawing.Point(730, 150);
+            this.FnameBox.Location = new System.Drawing.Point(973, 185);
+            this.FnameBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.FnameBox.Name = "FnameBox";
             this.FnameBox.ReadOnly = true;
-            this.FnameBox.Size = new System.Drawing.Size(219, 29);
+            this.FnameBox.Size = new System.Drawing.Size(291, 34);
             this.FnameBox.TabIndex = 9;
             // 
             // IdBox
             // 
-            this.IdBox.Location = new System.Drawing.Point(730, 95);
+            this.IdBox.Location = new System.Drawing.Point(973, 117);
+            this.IdBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.IdBox.Name = "IdBox";
             this.IdBox.ReadOnly = true;
-            this.IdBox.Size = new System.Drawing.Size(219, 29);
+            this.IdBox.Size = new System.Drawing.Size(291, 34);
             this.IdBox.TabIndex = 8;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label18.Location = new System.Drawing.Point(638, 150);
+            this.label18.Location = new System.Drawing.Point(851, 185);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label18.Size = new System.Drawing.Size(58, 24);
+            this.label18.Size = new System.Drawing.Size(72, 29);
             this.label18.TabIndex = 6;
             this.label18.Text = "טלפון:";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -737,10 +782,11 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label17.Location = new System.Drawing.Point(655, 95);
+            this.label17.Location = new System.Drawing.Point(873, 117);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label17.Size = new System.Drawing.Size(41, 24);
+            this.label17.Size = new System.Drawing.Size(51, 29);
             this.label17.TabIndex = 5;
             this.label17.Text = "עיר:";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -750,10 +796,11 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.Location = new System.Drawing.Point(985, 260);
+            this.label16.Location = new System.Drawing.Point(1313, 320);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label16.Size = new System.Drawing.Size(51, 24);
+            this.label16.Size = new System.Drawing.Size(65, 29);
             this.label16.TabIndex = 4;
             this.label16.Text = "רחוב:";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -763,10 +810,11 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.Location = new System.Drawing.Point(964, 205);
+            this.label15.Location = new System.Drawing.Point(1285, 252);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label15.Size = new System.Drawing.Size(72, 24);
+            this.label15.Size = new System.Drawing.Size(88, 29);
             this.label15.TabIndex = 3;
             this.label15.Text = "משפחה:";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -776,10 +824,11 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.Location = new System.Drawing.Point(998, 150);
+            this.label14.Location = new System.Drawing.Point(1331, 185);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label14.Size = new System.Drawing.Size(38, 24);
+            this.label14.Size = new System.Drawing.Size(49, 29);
             this.label14.TabIndex = 2;
             this.label14.Text = "שם:";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -789,10 +838,11 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(980, 95);
+            this.label13.Location = new System.Drawing.Point(1307, 117);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label13.Size = new System.Drawing.Size(56, 24);
+            this.label13.Size = new System.Drawing.Size(71, 29);
             this.label13.TabIndex = 1;
             this.label13.Text = "מספר:";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -821,19 +871,21 @@
             this.tabPage2.Controls.Add(this.Mname);
             this.tabPage2.Controls.Add(this.groupBox1);
             this.tabPage2.Location = new System.Drawing.Point(4, 84);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.tabPage2.Size = new System.Drawing.Size(1067, 498);
+            this.tabPage2.Size = new System.Drawing.Size(1425, 633);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "סטטוס פריטים";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // ReturnB
             // 
-            this.ReturnB.Location = new System.Drawing.Point(761, 283);
+            this.ReturnB.Location = new System.Drawing.Point(1015, 348);
+            this.ReturnB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ReturnB.Name = "ReturnB";
-            this.ReturnB.Size = new System.Drawing.Size(54, 50);
+            this.ReturnB.Size = new System.Drawing.Size(72, 62);
             this.ReturnB.TabIndex = 50;
             this.ReturnB.Text = "החזרת פריט";
             this.ReturnB.UseVisualStyleBackColor = true;
@@ -842,10 +894,11 @@
             // 
             this.TotalM2.AutoSize = true;
             this.TotalM2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TotalM2.Location = new System.Drawing.Point(74, 203);
+            this.TotalM2.Location = new System.Drawing.Point(99, 250);
+            this.TotalM2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TotalM2.Name = "TotalM2";
             this.TotalM2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.TotalM2.Size = new System.Drawing.Size(20, 24);
+            this.TotalM2.Size = new System.Drawing.Size(26, 29);
             this.TotalM2.TabIndex = 49;
             this.TotalM2.Text = "0";
             this.TotalM2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -854,9 +907,10 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label25.Location = new System.Drawing.Point(180, 203);
+            this.label25.Location = new System.Drawing.Point(240, 250);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(165, 24);
+            this.label25.Size = new System.Drawing.Size(206, 29);
             this.label25.TabIndex = 48;
             this.label25.Text = "סכום פריטים מוכנים:";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -865,9 +919,10 @@
             // 
             this.TotalA2.AutoSize = true;
             this.TotalA2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TotalA2.Location = new System.Drawing.Point(522, 203);
+            this.TotalA2.Location = new System.Drawing.Point(696, 250);
+            this.TotalA2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TotalA2.Name = "TotalA2";
-            this.TotalA2.Size = new System.Drawing.Size(20, 24);
+            this.TotalA2.Size = new System.Drawing.Size(26, 29);
             this.TotalA2.TabIndex = 47;
             this.TotalA2.Text = "0";
             this.TotalA2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -876,18 +931,20 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label23.Location = new System.Drawing.Point(565, 203);
+            this.label23.Location = new System.Drawing.Point(753, 250);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(168, 24);
+            this.label23.Size = new System.Drawing.Size(206, 29);
             this.label23.TabIndex = 46;
             this.label23.Text = "סה\"כ פריטים מוכנים:";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ReadyB
             // 
-            this.ReadyB.Location = new System.Drawing.Point(761, 227);
+            this.ReadyB.Location = new System.Drawing.Point(1015, 279);
+            this.ReadyB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ReadyB.Name = "ReadyB";
-            this.ReadyB.Size = new System.Drawing.Size(54, 50);
+            this.ReadyB.Size = new System.Drawing.Size(72, 62);
             this.ReadyB.TabIndex = 45;
             this.ReadyB.Text = "העמסת פריט";
             this.ReadyB.UseVisualStyleBackColor = true;
@@ -895,9 +952,10 @@
             // 
             // PayDebt
             // 
-            this.PayDebt.Location = new System.Drawing.Point(761, 84);
+            this.PayDebt.Location = new System.Drawing.Point(1015, 103);
+            this.PayDebt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PayDebt.Name = "PayDebt";
-            this.PayDebt.Size = new System.Drawing.Size(54, 50);
+            this.PayDebt.Size = new System.Drawing.Size(72, 62);
             this.PayDebt.TabIndex = 44;
             this.PayDebt.Text = "תשלום חוב";
             this.PayDebt.UseVisualStyleBackColor = true;
@@ -905,9 +963,10 @@
             // 
             // CancelOrder
             // 
-            this.CancelOrder.Location = new System.Drawing.Point(761, 142);
+            this.CancelOrder.Location = new System.Drawing.Point(1015, 175);
+            this.CancelOrder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CancelOrder.Name = "CancelOrder";
-            this.CancelOrder.Size = new System.Drawing.Size(54, 50);
+            this.CancelOrder.Size = new System.Drawing.Size(72, 62);
             this.CancelOrder.TabIndex = 43;
             this.CancelOrder.Text = "ביטול פריט";
             this.CancelOrder.UseVisualStyleBackColor = true;
@@ -917,9 +976,10 @@
             // 
             this.TotalA.AutoSize = true;
             this.TotalA.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TotalA.Location = new System.Drawing.Point(522, 3);
+            this.TotalA.Location = new System.Drawing.Point(696, 4);
+            this.TotalA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TotalA.Name = "TotalA";
-            this.TotalA.Size = new System.Drawing.Size(20, 24);
+            this.TotalA.Size = new System.Drawing.Size(26, 29);
             this.TotalA.TabIndex = 42;
             this.TotalA.Text = "0";
             this.TotalA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -928,10 +988,11 @@
             // 
             this.TotalM.AutoSize = true;
             this.TotalM.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TotalM.Location = new System.Drawing.Point(74, 3);
+            this.TotalM.Location = new System.Drawing.Point(99, 4);
+            this.TotalM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TotalM.Name = "TotalM";
             this.TotalM.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.TotalM.Size = new System.Drawing.Size(20, 24);
+            this.TotalM.Size = new System.Drawing.Size(26, 29);
             this.TotalM.TabIndex = 41;
             this.TotalM.Text = "0";
             this.TotalM.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -940,9 +1001,10 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label21.Location = new System.Drawing.Point(565, 3);
+            this.label21.Location = new System.Drawing.Point(753, 4);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(170, 24);
+            this.label21.Size = new System.Drawing.Size(209, 29);
             this.label21.TabIndex = 40;
             this.label21.Text = "סה\"כ פריטים בטיפול:";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -951,9 +1013,10 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label19.Location = new System.Drawing.Point(180, 3);
+            this.label19.Location = new System.Drawing.Point(240, 4);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(167, 24);
+            this.label19.Size = new System.Drawing.Size(209, 29);
             this.label19.TabIndex = 39;
             this.label19.Text = "סכום פריטים בטיפול:";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -991,7 +1054,8 @@
             dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.ReadyGrid.DefaultCellStyle = dataGridViewCellStyle11;
             this.ReadyGrid.Enabled = false;
-            this.ReadyGrid.Location = new System.Drawing.Point(6, 238);
+            this.ReadyGrid.Location = new System.Drawing.Point(8, 293);
+            this.ReadyGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ReadyGrid.MultiSelect = false;
             this.ReadyGrid.Name = "ReadyGrid";
             this.ReadyGrid.ReadOnly = true;
@@ -1005,7 +1069,7 @@
             this.ReadyGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.ReadyGrid.RowsDefaultCellStyle = dataGridViewCellStyle13;
-            this.ReadyGrid.Size = new System.Drawing.Size(749, 147);
+            this.ReadyGrid.Size = new System.Drawing.Size(999, 181);
             this.ReadyGrid.TabIndex = 38;
             this.ReadyGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ReadyGrid_CellContentClick);
             // 
@@ -1096,10 +1160,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(837, 0);
-            this.label8.MinimumSize = new System.Drawing.Size(200, 40);
+            this.label8.Location = new System.Drawing.Point(1116, 0);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.MinimumSize = new System.Drawing.Size(267, 49);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(200, 40);
+            this.label8.Size = new System.Drawing.Size(267, 49);
             this.label8.TabIndex = 37;
             this.label8.Text = "יתרה:";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1108,19 +1173,21 @@
             // 
             this.Debt.AutoSize = true;
             this.Debt.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Debt.Location = new System.Drawing.Point(837, 30);
-            this.Debt.MinimumSize = new System.Drawing.Size(200, 40);
+            this.Debt.Location = new System.Drawing.Point(1116, 37);
+            this.Debt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Debt.MinimumSize = new System.Drawing.Size(267, 49);
             this.Debt.Name = "Debt";
-            this.Debt.Size = new System.Drawing.Size(200, 40);
+            this.Debt.Size = new System.Drawing.Size(267, 49);
             this.Debt.TabIndex = 36;
             this.Debt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Debt.Click += new System.EventHandler(this.label8_Click);
             // 
             // NewItemB
             // 
-            this.NewItemB.Location = new System.Drawing.Point(761, 29);
+            this.NewItemB.Location = new System.Drawing.Point(1015, 36);
+            this.NewItemB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NewItemB.Name = "NewItemB";
-            this.NewItemB.Size = new System.Drawing.Size(54, 50);
+            this.NewItemB.Size = new System.Drawing.Size(72, 62);
             this.NewItemB.TabIndex = 35;
             this.NewItemB.Text = "קבלת פריט";
             this.NewItemB.UseVisualStyleBackColor = true;
@@ -1160,7 +1227,8 @@
             dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.OrderGrid.DefaultCellStyle = dataGridViewCellStyle24;
-            this.OrderGrid.Location = new System.Drawing.Point(6, 30);
+            this.OrderGrid.Location = new System.Drawing.Point(8, 37);
+            this.OrderGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.OrderGrid.MultiSelect = false;
             this.OrderGrid.Name = "OrderGrid";
             this.OrderGrid.ReadOnly = true;
@@ -1175,7 +1243,7 @@
             dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.OrderGrid.RowsDefaultCellStyle = dataGridViewCellStyle26;
             this.OrderGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.OrderGrid.Size = new System.Drawing.Size(749, 147);
+            this.OrderGrid.Size = new System.Drawing.Size(999, 181);
             this.OrderGrid.TabIndex = 5;
             this.OrderGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OrderGrid_CellContentClick);
             // 
@@ -1265,9 +1333,10 @@
             // 
             this.tabPage3.Controls.Add(this.tabControl2);
             this.tabPage3.Location = new System.Drawing.Point(4, 84);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.tabPage3.Size = new System.Drawing.Size(1067, 498);
+            this.tabPage3.Size = new System.Drawing.Size(1425, 633);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "חריגים";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -1284,10 +1353,11 @@
             this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl2.ItemSize = new System.Drawing.Size(150, 50);
             this.tabControl2.Location = new System.Drawing.Point(0, 0);
+            this.tabControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.RightToLeftLayout = true;
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1067, 498);
+            this.tabControl2.Size = new System.Drawing.Size(1425, 633);
             this.tabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl2.TabIndex = 0;
             // 
@@ -1295,9 +1365,10 @@
             // 
             this.tabPage4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabPage4.Location = new System.Drawing.Point(4, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1059, 440);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Size = new System.Drawing.Size(1417, 575);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "חייבים";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1306,9 +1377,10 @@
             // 
             this.tabPage5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabPage5.Location = new System.Drawing.Point(4, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1059, 431);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Size = new System.Drawing.Size(1415, 555);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "חסרים מהמפעל";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1316,9 +1388,10 @@
             // tabPage6
             // 
             this.tabPage6.Location = new System.Drawing.Point(4, 4);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1059, 431);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage6.Size = new System.Drawing.Size(1417, 575);
             this.tabPage6.TabIndex = 2;
             this.tabPage6.Text = "לוג שינויים";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1326,9 +1399,10 @@
             // tabPage7
             // 
             this.tabPage7.Location = new System.Drawing.Point(4, 4);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1059, 431);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Size = new System.Drawing.Size(1417, 575);
             this.tabPage7.TabIndex = 3;
             this.tabPage7.Text = "פריטים שלא הוחזרו";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1337,8 +1411,9 @@
             // 
             this.tabPage8.Controls.Add(this.dataGridView1);
             this.tabPage8.Location = new System.Drawing.Point(4, 4);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(1059, 431);
+            this.tabPage8.Size = new System.Drawing.Size(1417, 575);
             this.tabPage8.TabIndex = 4;
             this.tabPage8.Text = "פריטים לא מוכנים";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -1378,6 +1453,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Enabled = false;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -1391,8 +1467,9 @@
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle38;
             dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle39;
-            this.dataGridView1.Size = new System.Drawing.Size(1059, 431);
+            this.dataGridView1.Size = new System.Drawing.Size(1417, 575);
             this.dataGridView1.TabIndex = 6;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // dataGridViewTextBoxColumn9
             // 
@@ -1478,8 +1555,9 @@
             // tabPage9
             // 
             this.tabPage9.Location = new System.Drawing.Point(4, 4);
+            this.tabPage9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1059, 431);
+            this.tabPage9.Size = new System.Drawing.Size(1417, 575);
             this.tabPage9.TabIndex = 5;
             this.tabPage9.Text = "פריטים דחופים";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -1490,10 +1568,11 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1099, 669);
+            this.ClientSize = new System.Drawing.Size(1465, 823);
             this.Controls.Add(this.tabControl1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Main";
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);

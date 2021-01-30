@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
         const string FileName = "Sveta.accdb";
         public static string GetConnectionString()
         {
-            string ConnectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:\Users\Michael\source\repos\SvetaProject\WindowsFormsApp1\WindowsFormsApp1\DataBase\Sveta.accdb; Persist Security Info = False;";
+            string ConnectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:\Users\natan.moshkin\source\repos\SvetaProject\WindowsFormsApp1\WindowsFormsApp1\DataBase\Sveta.accdb; Persist Security Info = False;";
 
             return ConnectionString;
         }

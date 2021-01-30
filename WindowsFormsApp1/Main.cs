@@ -45,6 +45,11 @@ namespace WindowsFormsApp1
             OrderService os = new OrderService();
             return os.GetFinishById(x) ;
         }
+        private DataSet GetNotReady(int x) // פריטים לא מוכניםdataGridView1 
+        {
+            OrderService os = new OrderService();
+            return os.GetFinishById(x);
+        }
         private DataSet GetDebt(int x)
         {
             UserService us = new UserService();
@@ -97,9 +102,15 @@ namespace WindowsFormsApp1
             SubBox.Text = u.Sub;
             EmailBox.Text = u.Email;
             DebtBox.Text = String.Format("₪ {0:n}", u.Debt.ToString());
+            //OrderGrid - סטטוס פריטים
             OrderGrid.AutoGenerateColumns = false;
             OrderGrid.DataSource = GetOrders(u.Id);
             OrderGrid.DataMember = "Orders";
+            //  פריטים לא מוכניםdataGridView1 
+            dataGridView1.AutoGenerateColumns = false;
+           dataGridView1.DataSource = GetReadyOrders(u.Id);
+           dataGridView1.DataMember = "Orders";
+            //
             ReadyGrid.AutoGenerateColumns = false;
             ReadyGrid.DataSource = GetReadyOrders(u.Id);
             ReadyGrid.DataMember = "Orders";
@@ -405,6 +416,11 @@ namespace WindowsFormsApp1
         }
 
         private void OrderGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
